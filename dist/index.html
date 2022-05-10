@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic website that contains thatever you want">
+    <meta name="keywords" content="basc, tailwind">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <title>Basic</title>
+  </head>
+  <body class="font-poppins">
+    <header class="bg-banner bg-no-repeat bg-cover bg-bottom">
+      <div class="container">
+        <nav class="pt-[19px] pb-25 lg:py-25  relative">
+          <div class="flex items-center justify-between">
+            <div>
+              <a href="#" aria-label="logo"><img class="mt-[3px]" src="images/logo.svg" alt="logo"></a>
+            </div>
+            <ul id="ahmed" class="lg:flex lg:flex-1 justify-end items-center menu-1">
+              <li class=" lg:mr-30 xl:mr-45 text-white nav-link menuItem"><a class="py-10" href="#">Home</a></li>
+              <li class=" lg:mr-30 xl:mr-45 text-white nav-link menuItem"><a class="py-10" href="#features">Features</a>
+              </li>
+              <li class=" lg:mr-30 xl:mr-45 text-white nav-link menuItem"><a class="py-10" href="#about">About</a></li>
+              <li class=" lg:mr-30 xl:mr-45 text-white nav-link menuItem"><a class="py-10" href="#why">Why</a></li>
+              <li class=" lg:mr-30 xl:mr-45 text-white nav-link menuItem"><a class="py-10" href="#">Team</a></li>
+              <li class=" lg:mr-30 xl:mr-45 text-white nav-link menuItem"><a class="py-10" href="#">Blog</a></li>
+            </ul>
+            <a class="btn leading-extra-loose bg-200 gradient1 hover:bg-right-bottom ml-auto mr-20 lg:mr-0 hidden sm:inline-block"
+              href="#">Free Trial</a>
+            <button class="hamburger lg:hidden">
+              <i class="lni lni-menu menuIcon text-30"></i>
+              <i class="lni lni-close closeIcon text-30"></i>
+            </button>
+          </div>
+        </nav>
+        <div id="content" class="pt-[11px] md:pt-85 text-center">
+          <h3 class="text-[24px] sm:text-30 md:text-38 font-normal text-white leading-1.2">Basic - SaaS Landing Page
+          </h3>
+          <h2 class="text-[24px] sm:text-30 md:text-38 font-bold text-white leading-1.2">Kickstart Your SaaS or App Site
+          </h2>
+          <p class="text-white font-lato mt-30 md:mt-[35px] leading-relaxed md:leading-none">Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam
+            nonumy
+            eirmod tempor</p>
+          <a href="#" class="btn leading-3 mt-10 md:mt-[45px] bg-gradient-to-r gradient2 hover:bg-right-bottom">Get
+            Started</a>
+          <div class="flex justify-center pt-30 md:pt-45 mx-auto max-w-650">
+            <img class="w-full" src="images/header-hero.png" alt="laptop">
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="sponsor" class="pt-90">
+      <div class="container">
+        <div class="flex flex-wrap justify-center md:grid md:grid-cols-5 items-center">
+          <div class="max-w-[170px] md:max-w-none px-15 lg:px-30 mt-30 opacity-50 hover:opacity-100">
+            <img src="images/brand-1.png" alt="brand">
+          </div>
+          <div class="max-w-[170px] md:max-w-none px-15 lg:px-30 mt-30 opacity-50 hover:opacity-100">
+            <img src="images/brand-2.png" alt="brand">
+          </div>
+          <div class="max-w-[170px] md:max-w-none px-15 lg:px-30 mt-30 opacity-50 hover:opacity-100">
+            <img src="images/brand-3.png" alt="brand">
+          </div>
+          <div class="max-w-[170px] md:max-w-none px-15 lg:px-30 mt-30 opacity-50 hover:opacity-100">
+            <img src="images/brand-4.png" alt="brand">
+          </div>
+          <div class="px-15 lg:px-30 mt-30 opacity-50 hover:opacity-100">
+            <img src="images/brand-5.png" alt="brand">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="pt-120">
+      <div class="container text-center">
+        <h3 class="heading before:mx-auto relative lg:max-w-[83.3%] xl:max-w-4xl mx-auto">Clean and simple design, <span
+            class="font-normal">Comes
+            with everything
+            you need to get started!</span>
+        </h3>
+        <div class="grid lg:grid-cols-3 pt-10 gap-30">
+          <div
+            class="group card mx-auto sm:max-w-[390px] lg:max-w-none mt-30 shadow-3xl border-2 border-transparent hover:border-orange rounded-lg py-50 px-30 transition duration-300 ease-out">
+            <div class="icon relative w-max mx-auto">
+              <img class="group-hover:transform group-hover:rotate-25 transition duration-300 ease-out inline-block"
+                src="images/services-shape.svg">
+              <img class="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 inline-block"
+                src="images/services-shape-1.svg">
+              <i
+                class="lni lni-baloon absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-34 inline-block"></i>
+            </div>
+            <div class="content pt-30">
+              <h4 class="text-22 text-dark font-bold">
+                <a class="transition duration-300 ease-out text-[20px] md:text-26 lg:text-[24px] xl:text-26 text-dark hover:text-dark-purple"
+                  href="#">Clean</a>
+              </h4>
+              <p class="my-30 text-dark-grey font-normal leading-relaxed font-lato">Lorem ipsum dolor sit
+                amet,consetetur
+                sadipscing elitr, seddiam nonu eirmod tempor invidunt labore.</p>
+              <a class="text-dark hover:text-dark-purple font-lato" href="#">Learn More <i
+                  class="lni lni-chevron-right ml-2.5"></i></a>
+            </div>
+          </div>
+          <div
+            class="group card mx-auto sm:max-w-[390px] lg:max-w-none mt-30 shadow-3xl border-2 border-transparent hover:border-orange rounded-lg py-50 px-30 transition duration-300 ease-out">
+            <div class="icon relative w-max mx-auto">
+              <img class="group-hover:transform group-hover:rotate-25 transition duration-300 ease-out inline-block"
+                src="images/services-shape.svg">
+              <img class="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 inline-block"
+                src="images/services-shape-2.svg">
+              <i
+                class="lni lni-cog absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-34 inline-block"></i>
+            </div>
+            <div class="content pt-30">
+              <h4 class="text-22 text-dark font-bold">
+                <a class="transition duration-300 ease-out text-[20px] md:text-26 lg:text-[24px] xl:text-26 text-dark hover:text-dark-purple"
+                  href="#">Robust</a>
+              </h4>
+              <p class="my-30 text-dark-grey font-normal leading-relaxed font-lato">Lorem ipsum dolor sit
+                amet,consetetur
+                sadipscing elitr, seddiam nonu eirmod tempor invidunt labore.</p>
+              <a class="text-dark hover:text-dark-purple font-lato" href="#">Learn More <i
+                  class="lni lni-chevron-right ml-2.5"></i></a>
+            </div>
+          </div>
+          <div
+            class="group card mx-auto sm:max-w-[390px] lg:max-w-none mt-30 shadow-3xl border-2 border-transparent hover:border-orange rounded-lg py-50 px-30 transition duration-300 ease-out">
+            <div class="icon relative w-max mx-auto">
+              <img class="group-hover:transform group-hover:rotate-25 transition duration-300 ease-out inline-block"
+                src="images/services-shape.svg">
+              <img class="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 inline-block"
+                src="images/services-shape-3.svg">
+              <i
+                class="lni lni-bolt-alt absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-34 inline-block"></i>
+            </div>
+            <div class="content pt-30">
+              <h4 class="text-22 text-dark font-bold">
+                <a class="transition duration-300 ease-out text-[20px] md:text-26 lg:text-[24px] xl:text-26 text-dark hover:text-dark-purple"
+                  href="#">Powerful</a>
+              </h4>
+              <p class="my-30 text-dark-grey font-normal leading-relaxed font-lato">Lorem ipsum dolor sit
+                amet,consetetur
+                sadipscing elitr, seddiam nonu eirmod tempor invidunt labore.</p>
+              <a class="text-dark hover:text-dark-purple font-lato" href="#">Learn More <i
+                  class="lni lni-chevron-right ml-2.5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="pb-50 overflow-hidden">
+      <div class="container">
+        <div class="grid lg:grid-cols-2 gap-[50px] lg:gap-30 mt-120">
+          <div class="about-content xl:mr-50 max-w-[480px] lg:max-w-none">
+            <h3 class="heading">Quick & Easy <span class="font-normal">to Use Bootstrap Template</span></h3>
+            <p class="mt-15 mb-10 font-normal text-dark-grey font-lato leading-relaxed">Lorem ipsum dolor sit amet,
+              consetetur
+              sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
+            </p>
+            <a href="#" class="px-35 btn leading-3.125 bg-200 gradient1 hover:bg-right-bottom">Try it Free</a>
+          </div>
+          <div class="about-img">
+            <img src="images/about1.svg" alt="about">
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-[50px] lg:gap-30 mt-120 lg:mt-[70px]">
+          <div class="about-img ">
+            <img src="images/about2.svg" alt="about">
+          </div>
+          <div class="about-content xl:mr-50 row-1 max-w-[480px] lg:max-w-none">
+            <h3 class="heading ">Modern design <span class="font-normal">with Essential Features</span></h3>
+            <p class="mt-15 mb-10 font-normal text-dark-grey font-lato leading-relaxed">Lorem ipsum dolor sit amet,
+              consetetur
+              sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
+            </p>
+            <a href="#" class="px-35 btn leading-3.125 bg-200 gradient1 hover:bg-right-bottom">Try it Free</a>
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-[50px] lg:gap-30 mt-120 lg:mt-[70px]">
+          <div class="about-content xl:mr-50 max-w-[480px] lg:max-w-none">
+            <h3 class="heading "><span class="font-normal">Crafted for</span> SaaS, App and Software Landing
+              Page
+            </h3>
+            <p class="mt-15 mb-10 font-normal text-dark-grey font-lato leading-relaxed">Lorem ipsum dolor sit amet,
+              consetetur
+              sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+              gubergren, no
+              sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
+            </p>
+            <a href="#" class="px-35 btn leading-3.125 bg-200 gradient1 hover:bg-right-bottom">Try it Free</a>
+          </div>
+          <div class="about-img ">
+            <img src="images/about3.svg" alt="about">
+          </div>
+        </div>
+        <div id="why" class="grid lg:grid-cols-2 gap-[50px] lg:gap-30 mt-120 lg:mt-[70px]">
+          <div
+            class="about-img h-fit relative after:absolute after:w-full after:h-full after:top-0 after:left-0 rounded-lg after:rounded-lg after:video-gradient after:z-20 ">
+            <img class="z-10" src="images/video.png" alt="about">
+            <img class="absolute -left-30 -bottom-30 z-[-1]" src="images/dots.svg" alt="image">
+            <a class="absolute w-55 h-55 bg-white rounded-full text-color1 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center z-30"
+              href="#"><i class="lni lni-play"></i></a>
+          </div>
+          <div class="about-content xl:pl-70">
+            <h3 class="heading ">Cool facts <span class="font-normal">this about app</span></h3>
+            <p class="mt-[35px] mb-60 font-normal text-dark-grey font-lato leading-relaxed">Lorem ipsum dolor sit amet,
+              consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna
+              aliquyam erat, sed diam voluptua.</p>
+            <div class="grid grid-cols-3 lg:gap-[16px] xl:gap-11">
+              <div
+                class="relative max-w-155 h-120 before:absolute before:left-1/2 before:top-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-120 sm:before:w-155 before:h-[85px] sm:before:h-120 before:transform before:-rotate-45 before:rounded-60 before:why-gradient1 before:z-[-1] before:content-[''] flex items-center justify-center text-center text-white">
+                <div>
+                  <h5 class="text-18 sm:text-22 font-bold font-lato">125K</h5>
+                  <p class="text-[14px] leading-relaxed font-lato">Downloads</p>
+                </div>
+              </div>
+              <div
+                class="relative max-w-155 h-120 before:absolute before:left-1/2 before:top-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-120 sm:before:w-155 before:h-[85px] sm:before:h-120 before:transform before:-rotate-45 before:rounded-60 before:why-gradient2 before:z-[-1] before:content-[''] flex items-center justify-center text-center text-white">
+                <div>
+                  <h5 class="text-18 sm:text-22 font-bold font-lato">87K</h5>
+                  <p class="text-[14px] leading-relaxed font-lato">Active Users</p>
+                </div>
+              </div>
+              <div
+                class="relative max-w-155 h-120 before:absolute before:left-1/2 before:top-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-120 sm:before:w-155 before:h-[85px] sm:before:h-120 before:transform before:-rotate-45 before:rounded-60 before:why-gradient3 before:z-[-1] before:content-[''] flex items-center justify-center text-center text-white">
+                <div>
+                  <h5 class="text-18 sm:text-22 font-bold font-lato">4.8</h5>
+                  <p class="text-[14px] leading-relaxed font-lato">User Rating</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="pt-[70px]">
+      <div class="container">
+        <h3 class="heading before:mx-auto relative mx-auto text-center max-w-md pb-30"><span class="font-normal">Meet
+            Our</span> Creative
+          Team Members</h3>
+        <div class="grid lg:grid-cols-3 gap-30">
+
+          <div
+            class="card mx-auto w-full sm:max-w-[330px] md:max-w-[390px] lg:max-w-none mt-30 group rounded-10 overflow-hidden shadow-4xl transition duration-300 ease-out">
+            <div class="relative">
+              <img class="w-full sm:w-[390px] lg:w-auto" src="images/team-1.png" alt="person">
+              <div
+                class="icons flex items-center relative w-max bottom-[31px] left-1/2 transform -translate-x-1/2 px-[22px] rounded-[22px] icons-grad group-hover:before:opacity-100 cursor-pointer overflow-hidden">
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-facebook-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-twitter-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-instagram-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-linkedin-original"></i></a>
+              </div>
+            </div>
+            <div class="content text-center p-30">
+              <h5 class="text-xl text-dark font-bold"><a href="#">Isabela Moreira</a></h5>
+              <p class="text-dark-grey mt-5 font-lato">Founder and CEO</p>
+            </div>
+          </div>
+          <div
+            class="card mx-auto sm:max-w-[330px] md:max-w-[390px] lg:max-w-none mt-30 group rounded-10 overflow-hidden shadow-4xl transition duration-300 ease-out">
+            <div class="relative">
+              <img src="images/team-2.png" alt="person">
+              <div
+                class="icons flex items-center relative w-max bottom-[31px] left-1/2 transform -translate-x-1/2 px-[22px] rounded-[22px] icons-grad group-hover:before:opacity-100 cursor-pointer overflow-hidden">
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-facebook-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-twitter-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-instagram-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-linkedin-original"></i></a>
+              </div>
+            </div>
+            <div class="content text-center p-30">
+              <h5 class="text-xl text-dark font-bold"><a href="#">Elon Musk</a></h5>
+              <p class="text-dark-grey mt-5 font-lato">Sr. Software Engineer</p>
+            </div>
+          </div>
+          <div
+            class="card mx-auto sm:max-w-[330px] md:max-w-[390px] lg:max-w-none mt-30 group rounded-10 overflow-hidden shadow-4xl transition duration-500 ease-out">
+            <div class="relative transition duration-500 ease-out">
+              <img src="images/team-3.png" alt="person">
+
+              <div
+                class="icons flex items-center relative w-max bottom-[31px] left-1/2 transform -translate-x-1/2 px-[22px] rounded-[22px] icons-grad group-hover:before:opacity-100 cursor-pointer overflow-hidden">
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-facebook-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-twitter-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-instagram-filled"></i></a>
+                <a class="text-white py-15 px-3" href="#"><i class="lni lni-linkedin-original"></i></a>
+              </div>
+            </div>
+            <div class="content text-center p-30">
+              <h5 class="text-xl text-dark font-bold"><a href="#">Fiona Smith</a></h5>
+              <p class="text-dark-grey mt-5 font-lato">Business Development Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="pt-120">
+      <div class="container">
+        <h3 class="heading before:mx-auto relative mx-auto text-center max-w-md pb-10">Users sharing <span
+            class="font-normal">their experience</span></h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 md:gap-30">
+          <div
+            class="card my-30 group sm:max-w-[510px] px-30 pt-25 pb-5 rounded-10 border-2 border-transparent hover:border-orange shadow-4xl transition duration-300 ease-out">
+            <div class="flex items-center justify-between ">
+              <i
+                class="lni lni-quotation text-4xl text-color4 group-hover:text-orange transition duration-300 ease-out"></i>
+              <div class="text-orange">
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+              </div>
+            </div>
+            <p class="mb-30 mt-25 text-dark-grey leading-relaxed font-lato">Lorem ipsum dolor sit amet,consetetur
+              sadipscing elitr,
+              seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+              sit amet,consetetur sadipscing elitr, seddiam nonu.</p>
+            <div class="flex items-center justify-start">
+              <div class="image relative">
+                <img class="relative" src="images/textimonial-shape.svg" alt="image">
+                <img class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20"
+                  src="images/author-1.png" alt="image">
+              </div>
+              <div>
+                <h4 class="text-18 leading-1.2 text-dark font-bold">Fajar Siddiq</h4>
+                <p class="text-15 text-dark-grey leading-1.73 font-lato">COO, MakerFlix</p>
+              </div>
+            </div>
+          </div>
+          <div class="card my-30 group sm:max-w-[510px] px-30 pt-25 pb-5 rounded-10 border-2 border-orange shadow-4xl">
+            <div class="flex items-center justify-between">
+              <i class="lni lni-quotation text-4xl text-orange"></i>
+              <div class="text-orange">
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+              </div>
+            </div>
+            <p class="mb-30 mt-25 text-dark-grey leading-relaxed font-lato">Lorem ipsum dolor sit amet,consetetur
+              sadipscing elitr,
+              seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+              sit amet,consetetur sadipscing elitr, seddiam nonu.</p>
+            <div class="flex items-center justify-start">
+              <div class="image relative">
+                <img class="relative" src="images/textimonial-shape.svg" alt="image">
+                <img class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20"
+                  src="images/author-2.png" alt="image">
+              </div>
+              <div>
+                <h4 class="text-18 leading-1.2 text-dark font-bold">Jenny Deo</h4>
+                <p class="text-15 text-dark-grey leading-1.73 font-lato">CEO, SpaceX</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card my-30 group sm:max-w-[510px] px-30 pt-25 pb-5 rounded-10 border-2 border-transparent hover:border-orange shadow-4xl transition duration-300 ease-out md:max-w-[330px] lg:max-w-none mx-auto md:col-start-1 md:col-end-3 lg:col-start-auto lg:col-end-auto">
+            <div class="flex items-center justify-between ">
+              <i
+                class="lni lni-quotation text-4xl text-color4 group-hover:text-orange transition duration-300 ease-out"></i>
+              <div class="text-orange">
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+                <i class="lni lni-star-filled"></i>
+              </div>
+            </div>
+            <p class="mb-30 mt-25 text-dark-grey leading-relaxed font-lato">Lorem ipsum dolor sit amet,consetetur
+              sadipscing elitr,
+              seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+              sit amet,consetetur sadipscing elitr, seddiam nonu.</p>
+            <div class="flex items-center justify-start">
+              <div class="image relative">
+                <img class="relative" src="images/textimonial-shape.svg" alt="image">
+                <img class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20"
+                  src="images/author-3.png" alt="image">
+              </div>
+              <div>
+                <h4 class="text-18 leading-1.2 text-dark font-bold">Marjin Otte</h4>
+                <p class="text-15 text-dark-grey leading-1.73 font-lato">UX Specialist, Yoast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blogs" class="pt-120">
+      <div class="container">
+        <h3 class="heading relative max-w-md pb-35"><span class="font-normal">Our Recent</span> Blog
+          Posts</h3>
+        <div class="grid lg:grid-cols-3 gap-30">
+          <div class="card mx-auto sm:max-w-[510px] md:max-w-[390px] lg:max-w-none mt-30">
+            <div>
+              <img class="w-full" src="images/blog-1.jpg" alt="image">
+            </div>
+            <div class="flex items-center justify-start pt-25">
+              <p class="text-dark-grey font-lato">Posted By: <a href="#">Admin</a></p>
+              <p class="ml-50 text-dark-grey font-lato">03 June, 2023</p>
+            </div>
+            <p class="mt-15 mb-30 text-[20px] md:text-23 leading-1.3 text-dark font-lato">Lorem ipsuamet conset sadips
+              cing elitr
+              seddiam
+              nonu eirmod tempor invidunt labore.</p>
+            <a class="text-orange font-lato" href="#">Learn More <i class="lni lni-chevron-right ml-5"></i></a>
+          </div>
+          <div class="card mx-auto sm:max-w-[510px] md:max-w-[390px] lg:max-w-none mt-30">
+            <div>
+              <img class="w-full" src="images/blog-2.jpg" alt="image">
+            </div>
+            <div class="flex items-center justify-start pt-25">
+              <p class="text-dark-grey font-lato">Posted By: <a href="#">Admin</a></p>
+              <p class="ml-50 text-dark-grey font-lato">03 June, 2023</p>
+            </div>
+            <p class="mt-15 mb-30 text-[20px] md:text-23 leading-1.3 text-dark font-lato">Lorem ipsuamet conset sadips
+              cing elitr
+              seddiam
+              nonu eirmod tempor invidunt labore.</p>
+            <a class="text-orange font-lato" href="#">Learn More <i class="lni lni-chevron-right ml-5"></i></a>
+          </div>
+          <div class="card mx-auto sm:max-w-[510px] md:max-w-[390px] lg:max-w-none mt-30">
+            <div>
+              <img class="w-full" src="images/blog-3.jpg" alt="image">
+            </div>
+            <div class="flex items-center justify-start pt-25">
+              <p class="text-dark-grey font-lato">Posted By: <a href="#">Admin</a></p>
+              <p class="ml-50 text-dark-grey font-lato">03 June, 2023</p>
+            </div>
+            <p class="mt-15 mb-30 text-[20px] md:text-23 leading-1.3 text-dark font-lato">Lorem ipsuamet conset sadips
+              cing elitr
+              seddiam
+              nonu eirmod tempor invidunt labore.</p>
+            <a class="text-orange font-lato" href="#">Learn More <i class="lni lni-chevron-right ml-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pt-120 bg-footer bg-no-repeat bg-cover bg-top-center">
+      <div class="container">
+        <div class="subscribe bg-white px-50 shadow-5xl rounded-10 lg:flex items-center justify-between py-[87px]">
+          <div class="md:max-w-[80%] lg:max-w-[50%]">
+            <h2 class="text-[24px] md:text-35 lg:text-30 xl:text-35 font-bold text-dark leading-1.2">Subscribe Our
+              Newsletter <span class="font-normal">get
+                reguler updates</span></h2>
+          </div>
+          <div class="flex flex-col sm:flex-row items-center mt-50 lg:mt-0 lg:w-[490px] gap-2.5 sm:gap-0">
+            <input
+              class="h-[65px] w-full px-30 rounded-br-[5px] rounded-tr-[5px] sm:rounded-br-[0px] sm:rounded-tr-[0px] rounded-tl-[5px] rounded-bl-[5px] text-dark border-2 border-light-grey sm:border-r-0 outline-0 focus:border-dark-purple"
+              type="email" name="email" id="email" placeholder="Enter Eamil">
+            <input
+              class="font-lato rounded-tl-[5px] rounded-bl-[5px] sm:rounded-tl-[0px] sm:rounded-bl-[0px] rounded-tr-[5px] rounded-br-[5px] h-[65px] leading-[65px] font-medium text-center px-25 text-white bg-200 gradient1 hover:bg-right-bottom cursor-pointer w-full sm:w-auto"
+              type="button" value="Subscribe">
+          </div>
+        </div>
+        <div class="content pt-50 pb-[100px] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+          <div class="col-span-2 sm:col-span-4 lg:col-span-2 mt-50 max-w-[335px] lg:max-w-[79%]">
+            <div>
+              <a href="#">
+                <img class="w-40" src="images/logo.svg" alt="logo">
+              </a>
+            </div>
+            <p class="mt-30 mb-10 text-white text-base font-lato font-normal leading-[1.875]">Lorem ipsum dolor sit amet
+              consetetur
+              sadipscing
+              elitr, sederfs diam nonumy eirmod tempor invidunt ut
+              labore et dolore
+              magna aliquyam.</p>
+            <div class="icons flex">
+              <a class="text-white mr-30 text-22" href="#"><i class="lni lni-facebook-filled"></i></a>
+              <a class="text-white mr-30 text-22" href="#"><i class="lni lni-twitter-filled"></i></a>
+              <a class="text-white mr-30 text-22" href="#"><i class="lni lni-instagram-filled"></i></a>
+              <a class="text-white mr-30 text-22" href="#"><i class="lni lni-linkedin-original"></i></a>
+            </div>
+          </div>
+          <div class="mt-50">
+            <h4 class="text-2xl font-bold leading-1.2 text-white">Quick Link</h4>
+            <ul class="pt-20">
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Road
+                  Map</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Privacy Policy</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Refund
+                  Policy</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Terms
+                  of Service</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="mt-50">
+            <h4 class="text-2xl font-bold leading-1.2 text-white">Resources</h4>
+            <ul class="pt-20">
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Home</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Page</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Portfolio</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Blog</a></li>
+              <li class="mt-20"><a class="text-white hover:text-orange transition duration-300 ease-out font-lato"
+                  href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="mt-50">
+            <h4 class="text-2xl font-bold leading-1.2 text-white">Contact Us</h4>
+            <ul class="pt-20">
+              <li class="mt-20">
+                <p class="text-white font-lato">+809272561823</p>
+              </li>
+              <li class="mt-20">
+                <p class="text-white font-lato">info@gmail.com</p>
+              </li>
+              <li class="mt-20">
+                <p class="text-white font-lato">www.yourweb.com</p>
+              </li>
+              <li class="mt-20">
+                <p class="text-white font-lato">123 Stree New York City , United
+                  States Of America 750.</p>
+              </li>
+            </ul>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+
+      const menu = document.querySelector(".menu-1");
+      const menuItems = document.querySelectorAll(".menuItem");
+      const hamburger = document.querySelector(".hamburger");
+      const closeIcon = document.querySelector(".closeIcon");
+      const menuIcon = document.querySelector(".menuIcon");
+
+      function toggleMenu() {
+        if (menu.classList.contains("showMenu")) {
+          menu.classList.remove("showMenu");
+          closeIcon.style.display = "none";
+          menuIcon.style.display = "block";
+        } else {
+          menu.classList.add("showMenu");
+          closeIcon.style.display = "block";
+          menuIcon.style.display = "none";
+        }
+      }
+
+      hamburger.addEventListener("click", toggleMenu);
+
+      menuItems.forEach(
+        function (menuItem) {
+          menuItem.addEventListener("click", toggleMenu);
+        }
+      )
+    </script>
+  </body>
+</html>
